@@ -19,13 +19,13 @@ function App() {
     };
 
     return (
-        <div className="relative w-full h-full min-h-screen pt-10 bg-[url('https://t3.ftcdn.net/jpg/03/83/81/80/360_F_383818080_RyXyzgCAq9C2Kn6IZkBbt4iU1KGHDYhU.jpg')] bg-cover bg-center bg-fixed">
+        <div className="relative w-full h-full min-h-screen pt-10 bg-[url('https://t3.ftcdn.net/jpg/03/83/81/80/360_F_383818080_RyXyzgCAq9C2Kn6IZkBbt4iU1KGHDYhU.jpg')] bg-cover bg-center bg-fixedxam">
             <div className="relative">
                 <div className="flex justify-center items-center">
                     <input
                         type="text"
                         onChange={(e) => setCommand(e.target.value)}
-                        placeholder="Enter command"
+                        placeholder="Enter CN command"
                         className="placeholder:italic bg-blue-300 placeholder:text-black ring-1 ring-blue-500 w-96 max-w-full px-3 py-3 rounded-sm hover:ring-0 hover:bg-blue-500 hover:placeholder:text-black focus:bg-black focus:text-gray-200 focus:ring-2 focus:ring-blue-600 focus:font-semibold focus:placeholder:text-gray-200"
                     />
                     <button
