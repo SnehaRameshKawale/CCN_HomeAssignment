@@ -37,7 +37,7 @@ function App() {
                 </div>
                 <div>
                     <div className="text-white text-center pt-10 pb-2 font-semibold text-lg">Here are some available commands</div>
-                    <div className="flex flex-wrap">
+                    <div className="flex flex-wrap justify-center">
                         <button
                             className="px-3 py-3 bg-blue-500 rounded-md mb-2 font-bold ml-4 hover:bg-black hover:text-white hover:border-2 hover:border-white"
                             onClick={(e) => {
